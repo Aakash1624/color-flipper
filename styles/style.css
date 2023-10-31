@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  top: 0;
+  background-color: #ddf4f4be;
+}
+:root {
+  --clr-emerald: #10bd5e;
+  --clr-light-green: #b6f099;
+  --clr-dark-red: #cc1006;
+  --clr-amber: #ffbe0bff;
+  --clr-rose: #ff006eff;
+  --clr-blue-violet: #8338ecff;
+  --clr-azure: #07bcf3;
+  --clr-orange: #fb5607ff;
+  --clr-folly: #ff0054ff;
+  --clr-melon: #ffa69eff;
+  --clr-lite-gray: #e9ecefff;
+  --clr-dark-gray: #595959ff;
+  --clr-dark-shadow: 0 30px 38px rgba(0, 0, 0, 0.302),
+    0 15px 10px rgba(0, 0, 0, 0.22);
+  --clr-light-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.nav-bar {
+  width: 100%;
+  background-color: white;
+  height: 3rem;
+  display: flex;
+  gap: 35rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* text-decoration: none; */
+}
+
+.colors-Flipper {
+  border: none;
+  color: var(--clr-azure);
+  background-color: none;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.colors-Flipper:hover {
+  border: none;
+  color: var(--clr-azure);
+  font-size: 20px;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+.simple-hex {
+  border: none;
+  color: rgb(86, 86, 86);
+  background-color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.simple-hex:hover {
+  border: none;
+  color: var(--clr-azure);
+  font-size: 20px;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+.sub-container {
+  width: 100%;
+  margin-top: 10rem;
+  /* border-radius: 10px; */
+  display: grid;
+  place-content: center;
+}
+
+.bg-color {
+  width: 30rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  background-color: black;
+  border-radius: 50px;
+  padding: 3rem;
+  color: white;
+  align-items: center;
+  letter-spacing: 2px;
+}
+
+.click-me {
+  margin-top: 2rem;
+  margin-left: 9rem;
+  width: 12rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  /* box-shadow: var(--clr-dark-shadow); */
+}
+
+.click-me:hover {
+  margin-top: 2rem;
+  margin-left: 9rem;
+  width: 12rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 1rem 1rem;
+  background-color: #63ffa9;
+  font-size: 1rem;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+  /* box-shadow: var(--clr-dark-shadow); */
+}
+
+.color {
+  color: rgb(169, 32, 244);
+}
